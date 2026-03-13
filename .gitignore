@@ -1,0 +1,37 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# === FreeCAD ===
+# Ignore recovery and backup files created by FreeCAD
+*.FCStd1
+*.FCStd?
+*.bck
+*.swp
+
+# === OpenFOAM (The Critical Part) ===
+# We want to ignore the massive result folders (time steps)
+# OpenFOAM result folders are named by numbers (e.g., 0.1, 100, 500)
+03_OpenFOAM_Case/[1-9]*
+03_OpenFOAM_Case/0.[0-9]*
+
+# Ignore the mesh (which can be regenerated via scripts)
+03_OpenFOAM_Case/constant/polyMesh/
+
+# BUT: Keep the blockMeshDict so others can recreate your mesh
+!03_OpenFOAM_Case/constant/polyMesh/blockMeshDict
+
+# Ignore processor folders from parallel running
+03_OpenFOAM_Case/processor*
+
+# Ignore post-processing data (keep the scripts, ignore the CSVs/Logs)
+03_OpenFOAM_Case/postProcessing/
+03_OpenFOAM_Case/*.log
+
+# === OS/IDE Specific ===
+.DS_Store
+.vscode/
+.idea/
