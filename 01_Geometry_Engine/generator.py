@@ -199,6 +199,7 @@ class AirfoilGUI:
         try:
             with open(source_file, "w") as f:
                 # FreeCAD reads header
+                f.write(f"# NACA:{m}{p}{t:02d}\n")
                 f.write(f"# CHORD:{c}\n")
                 f.write(f"# SPAN:{span}\n")
                 # Write to the same file every time
