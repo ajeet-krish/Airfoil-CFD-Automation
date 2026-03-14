@@ -1,3 +1,9 @@
+# === Project Specific ===
+02_CAD_Integration/latest_airfoil.dat
+02_CAD_Integration/2D Airfoil Files
+02_CAD_Integration/CAD Files
+04_Results/Plots
+
 # === Python ===
 __pycache__/
 *.py[cod]
@@ -12,8 +18,8 @@ venv/
 *.bck
 *.swp
 
-# === OpenFOAM (The Critical Part) ===
-# We want to ignore the massive result folders (time steps)
+# === OpenFOAM ===
+# Ignore the massive result folders (time steps)
 # OpenFOAM result folders are named by numbers (e.g., 0.1, 100, 500)
 03_OpenFOAM_Case/[1-9]*
 03_OpenFOAM_Case/0.[0-9]*
