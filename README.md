@@ -5,15 +5,12 @@
 This project demonstrates an end-to-end automated engineering workflow designed to streamline the iterative design of aerodynamic profiles. By bridging Python-based geometry generation with OpenFOAM's simulation capabilities, this pipeline eliminates manual CAD bottlenecks and provides a repeatable framework for aerodynamic analysis.
 
 ### 📽️ Live Demonstration
-#### Phase 1 & 2 Integration Demo
-![3D Airfoil Generation Demo](media/3D Airfoil Demo.mov)
-Description: Demonstration of the interactive GUI adjusting wing parameters. In FreeCAD, executing the macro subsequently generates the 3D model and saves the STL file for future CFD analysis.
+#### Phase 1: Working GUI
 
-#### Interface and CAD Gallery
-Phase 1: Interactive Geometry Engine
-![GUI Interface](media/gui_interface.mp4)
+![GUI Demo](media/GUI Interface.gif)
+Description: Demonstration of the interactive GUI adjusting wing parameters. 
 
-Phase 2: CAD Assembly Output
+#### Phase 2: CAD Assembly Output
 [INSERT SCREENSHOT: FreeCAD_Model_View.png]
 
 ---
