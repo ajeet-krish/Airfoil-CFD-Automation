@@ -6,12 +6,12 @@ This project demonstrates an end-to-end automated engineering workflow designed 
 
 ### 📽️ Live Demonstration
 #### Phase 1 & 2 Integration Demo
-[INSERT VIDEO: media/3D Airfoil Demo.mov]
+![3D Airfoil Generation Demo](media/3D Airfoil Demo.mov)
 Description: Demonstration of the interactive GUI adjusting wing parameters. In FreeCAD, executing the macro subsequently generates the 3D model and saves the STL file for future CFD analysis.
 
 #### Interface and CAD Gallery
 Phase 1: Interactive Geometry Engine
-[INSERT VIDEO: media/gui_interface.mp4]
+![GUI Interface](media/gui_interface.mp4)
 
 Phase 2: CAD Assembly Output
 [INSERT SCREENSHOT: FreeCAD_Model_View.png]
